@@ -4,6 +4,10 @@ function initCamera() {
   //        $('<Your code here>'),
   //        $('<Your code here>'));
 
+  capture($('#camera-video'),
+          $('#camera-canvas'),
+          $('#camera-button'));
+
   // For Reference:
   // capture($('#camera-video'),
   //       $('#camera-canvas'),
